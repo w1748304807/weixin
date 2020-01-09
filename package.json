@@ -1,0 +1,10 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "wangchuanxin <1748304807@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "weui-miniprogram": "^0.2.1"
+  }
+}

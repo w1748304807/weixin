@@ -1,0 +1,6 @@
+<!--components/index/tabbar.wxml-->
+<view class="box">
+  <view class="list">
+    
+  </view>
+</view>

@@ -1,0 +1,5 @@
+/* components/index/tabbar.wxss */
+.box{
+  margin-top: 5px;
+  height: 40px;
+}
