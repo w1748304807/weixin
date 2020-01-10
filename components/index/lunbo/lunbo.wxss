@@ -1,0 +1,11 @@
+/* components/index/swiper/swiper.wxss */
+.box{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  height: 140px;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}

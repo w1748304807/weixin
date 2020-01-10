@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "tabbar": "../../components/index/tabbar",
+    "lunbo": "../../components/index/lunbo/lunbo",
+    "reco": "../../components/index/recommend/reco",
+    "lists": "../../components/index/list/lists",
+    "foot": "../../components/index/foot/foot"
+  }
+}

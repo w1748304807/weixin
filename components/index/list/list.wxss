@@ -1,0 +1,82 @@
+/* components/index/list/list.wxss */
+.box{
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.head-l{
+  line-height: 1.38;
+  color: #333;
+  font-weight: 700;
+  font-size: 18px;
+}
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head-r{
+  font-size: 12px;
+  height: 25px;
+  line-height: 25px;
+  color: #72727b;
+}
+.list{
+
+}
+.item{
+  padding: 15px 10px 15px 0;
+  border-bottom: 1px solid #f3f4f5;
+  display: flex;
+}
+.item-l{
+  width: 70px;
+  height: 70px;
+  padding: 0 15px 0 0;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+.item-r{
+  flex: 1;
+  overflow: hidden;
+}
+.txt1{
+  color: #333;
+  font-size: 16px;
+  line-height: 1.38;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.txt2{
+  margin: 5px 0 7px;
+  font-size: 13px;
+  line-height: 1.38;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #999;
+}
+.txt3{
+  font-size: 12px;
+  line-height: 1.45;
+  color: #999;
+}
+.txt-l{
+  min-width: 55px;
+  display: flex;
+}
+.ico1{
+  width: 12px;
+  height: 18px;
+  margin-right: 5px;
+}
+.l1{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}

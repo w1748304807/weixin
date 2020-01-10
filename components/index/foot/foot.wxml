@@ -1,0 +1,20 @@
+<!--components/index/foot/foot.wxml-->
+<view class="box">
+  <view class="nav1"></view>
+  <view class="nav2">
+    <view class="nav-w">
+      打开APP，听更多声音
+    </view>
+  </view>
+  <view class="nav3">
+    <view class="txt1">Copyright © 2014-2019 www.ximalaya.com </view>
+    <view>lnc.ALL Rights Reserved</view>
+  </view>
+  <view class="nav4">
+    <view class="lit">全部分类</view>
+    <view class="lits"></view>
+    <view class="lit">海外版</view>
+    <view class="lits"></view>
+    <view class="lit">联系我们</view>
+  </view>
+</view>

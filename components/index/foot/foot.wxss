@@ -1,0 +1,66 @@
+/* components/index/foot/foot.wxss */
+.box{
+  border-top: .5px solid #eee;
+  max-width: 640px;
+  min-width: 320px;
+  margin: auto;
+  height: 294px;
+  background: url(//s1.xmcdn.com/yx/ximalaya-mobile-resource/last/dist/images/footer_bg_2b1fa03.png) no-repeat center;
+  background-size: cover;
+}
+.nav1{
+  width: 100%;
+  height: 40px;
+  background: url(//s1.xmcdn.com/yx/ximalaya-mobile-resource/last/dist/images/footer_logo_f90f028.png) no-repeat center;
+  background-size: 160px 40px;
+  margin: 34px auto 18px;
+}
+.nav2{
+  width: 300px;
+  font-size: 12px;
+  margin: 20px auto 10px;
+}
+.nav-w{
+  width: 292px;
+  height: 49px;
+  border-radius: 25px;
+  border: 1px solid #fa2800;
+  color: #fa2800;
+  font-size: 18px;
+  font-family: PingFangHK-Regular,PingFangHK;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav3{
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-family: PingFangSC-Regular,PingFangSC;
+  font-weight: 400;
+  color: gray;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 15px;
+}
+.nav4{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.lit{
+  font-size: 13px;
+  font-family: PingFangSC-Regular,PingFangSC;
+  font-weight: 400;
+  color: #40404c;
+  line-height: 18px;
+}
+.lits{
+  width: 2px;
+  height: 8px;
+  border-left: 1px solid #40404c;
+  margin: 0 14px;
+}

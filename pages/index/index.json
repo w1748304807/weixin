@@ -1,5 +1,8 @@
 {
   "usingComponents": {
-    "tabbar": "../../components/index/tabbar"
+    "tabbar": "../../components/index/tabbar",
+    "recommend": "../../components/index/recommend/recommend",
+    "list": "../../components/index/list/list",
+    "foot": "../../components/index/foot/foot"
   }
 }

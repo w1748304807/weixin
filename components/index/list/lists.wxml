@@ -1,0 +1,65 @@
+<!--components/index/list/lists.wxml-->
+<view class="box">
+  <view class="list-w" wx:for="{{list}}" wx:key="index">
+    <view class="title">{{item.moduleInfo.displayName}}</view>
+    <view class="list1">
+      <view class="item" wx:for="{{data[index]}}" wx:key="id">
+        <view class="out">
+          <view class="item-s">
+            <image class="img1" src='{{"//imagev2.xmcdn.com/"+item.albumInfo.cover}}'></image>
+          </view>
+        </view>
+        <view class="text">
+          <view class="esp">{{item.albumInfo.title}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="list2">
+      <view class="item2" wx:for="{{res[index]}}" wx:key="id">
+        <view class="item2-l">
+          <image class="img2" src='{{"//imagev2.xmcdn.com/"+item.albumInfo.cover}}'></image>
+        </view>
+        <view class="item2-r">
+          <view class="txt1">{{item.anchorInfo.nickname}}</view>
+          <view class="txt2">{{item.albumInfo.subTitle}}</view>
+          <view class="txt3">
+            <view class="txt-l">
+              <view class="l1">
+                <image src="../../../images/4.png" class="ico1"></image>
+                {{item.statCountInfo.trackCount}}
+              </view>
+              <view class="l1">
+                <image src="../../../images/3.png" class="ico1"></image>
+                {{item.statCountInfo.playCount}}
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="list3">
+    <view class="title">更多推荐</view>
+    <view class="item2" wx:for="{{more}}" wx:key="index">
+      <view class="item2-l">
+        <image class="img2" src='{{"//imagev2.xmcdn.com/"+item.data.albumInfo.cover}}'></image>
+      </view>
+      <view class="item2-r">
+        <view class="txt1">{{item.data.albumInfo.title}}</view>
+        <view class="txt2">{{item.data.albumInfo.salePoint}}</view>
+        <view class="txt3">
+          <view class="txt-l">
+            <view class="l1">
+              <image src="../../../images/4.png" class="ico1"></image>
+              {{item.data.statCountInfo.trackCount}}
+            </view>
+            <view class="l1">
+              <image src="../../../images/3.png" class="ico1"></image>
+              {{item.data.statCountInfo.trackCount.playCount}}
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

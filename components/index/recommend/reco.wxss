@@ -1,0 +1,23 @@
+/* components/index/recommend/reco.wxss */
+.box{
+  margin-top: 25px;
+}
+.box-w{
+  width: 308px;
+  margin: 0 auto;
+  display: flex;
+}
+.item{
+  font-size: 14px;
+  flex:1;
+  color: #7e8c8d;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img{
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}

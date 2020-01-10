@@ -1,12 +1,26 @@
-//index.js
-//获取应用实例
+// components/index/recommend/recommend.js
+Component({
+  /**
+   * 组件的属性列表
+   */
+  properties: {
 
-Page({
-  data: {
-    list1: [],
-    list2: []
   },
-  onLoad() {
+
+  /**
+   * 组件的初始数据
+   */
+  data: {
+    list: []
+  },
+
+  /**
+   * 组件的方法列表
+   */
+  methods: {
+
+  },
+  attached: function () {
     wx.request({
       url: 'https://m.ximalaya.com/m-revision/page/index/queryIndexTabContent?moduleKey=tuijian', //仅为示例，并非真实的接口地址
       data: {
@@ -18,8 +32,7 @@ Page({
       },
       success: (res) => {
         this.setData({
-          list1: res.data.data.moduleContent.moduleRankDatas,
-          list2: res.data.data.moduleContent.tomatoes
+          list: res.data.data.moduleContent.tomatoes
         })
       }
     })

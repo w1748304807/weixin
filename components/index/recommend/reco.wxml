@@ -1,0 +1,10 @@
+<!--components/index/recommend/reco.wxml-->
+<view class="box">
+  <view class="box-w">
+    <view class="item" wx:for="{{list}}" wx:key="order">
+      <image src="{{item.img}}" class="img"></image>
+      {{item.name}}
+    </view>
+  </view>
+</view>
+

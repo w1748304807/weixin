@@ -1,0 +1,31 @@
+<view class="box" wx:for="{{list}}" wx:key="rankId">
+  <view class="head">
+    <view class="head-l">{{item.title}}</view>
+    <view class="head-r">
+      更多
+    </view>
+  </view>
+  <view class="list">
+    <view class="item" wx:for="{{item.rankingContentInfoList.rankModuleInfoList}}" wx:key="id">
+      <view class="item-l">
+        <image src='{{"//imagev2.xmcdn.com/"+item.albumInfo.cover}}' class="img"></image>
+      </view>
+      <view class="item-r">
+        <view class="txt1">{{item.albumInfo.title}}</view>
+        <view class="txt2">{{item.albumInfo.salePoint}}</view>
+        <view class="txt3">
+          <view class="txt-l">
+            <view class="l1">
+              <image src="../../../images/4.png" class="ico1"></image>
+              {{item.statCountInfo.trackCount}}
+            </view>
+            <view class="l1">
+              <image src="../../../images/3.png" class="ico1"></image>
+              {{item.statCountInfo.playCount}}
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

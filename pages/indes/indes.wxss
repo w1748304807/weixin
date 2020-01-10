@@ -1,4 +1,4 @@
-/**index.wxss**/
+/* pages/indes/indes.wxss */
 .box{
   height: 100%;
 }
