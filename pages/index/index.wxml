@@ -3,7 +3,7 @@
   <view class="head">
     <view class="head-w">
       <image src="../../images/1.png" class="logo"></image>
-      <view class="search">
+      <view class="search" catchtap="searchClick">
         <view class="ip">
           <image src="../../images/2.png" class="sear"></image>
           <view class="text">搜索</view>

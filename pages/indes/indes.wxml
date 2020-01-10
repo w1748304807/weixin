@@ -4,7 +4,7 @@
     <view class="head-w">
       <image src="../../images/1.png" class="logo"></image>
       <view class="search">
-        <view class="ip">
+        <view class="ip" catchtap="searchClick">
           <image src="../../images/2.png" class="sear"></image>
           <view class="text">搜索</view>
         </view>

@@ -1,0 +1,6 @@
+<!--components/search/bar/bar.wxml-->
+<view class="box">
+  <view class="list">
+    <view class='item {{index == page ? "active" : ""}}' data-index="{{index}}" wx:key="categoryId" wx:for="{{list}}" catchtap="handleClick" data-id="{{item.categoryId}}">{{item.categoryName}}</view>
+  </view>
+</view>

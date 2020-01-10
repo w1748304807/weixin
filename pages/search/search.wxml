@@ -1,0 +1,7 @@
+<!--pages/search/search.wxml-->
+<view class="box">
+  <head></head>
+  <bar bind:myevent="handleClick"></bar>
+  <list myid="{{id}}"></list>
+  <foot></foot>
+</view>

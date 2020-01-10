@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "head": "../../components/search/head/head",
+    "bar": "../../components/search/bar/bar",
+    "list": "../../components/search/list/list",
+    "foot": "../../components/index/foot/foot"
+  }
+}

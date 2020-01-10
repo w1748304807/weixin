@@ -1,6 +1,7 @@
 //app.js
 App({
   data: {
-    page: 0
+    id: '-1',
+    input: ''
   }
 })

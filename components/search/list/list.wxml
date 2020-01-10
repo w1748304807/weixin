@@ -1,0 +1,16 @@
+<!--components/search/list/list.wxml-->
+<view class="list">
+  <view class='item' wx:for="{{list}}" wx:key="display_word">
+    <view class='item-l {{index == 0 ? "" : index == 1 ? "active1" : index == 2 ? "active2" : "active3"}}'>{{index+1}}</view>
+    <view class="item-z">{{item.display_word}}</view>
+    <view class="item-r">
+      <image src="../../../images/5.png" class="img" wx:if="{{item.shift==1}}"></image>
+      <image src="../../../images/6.png" class="img" wx:if="{{item.shift==-1}}"></image>
+      <image src="../../../images/8.png" class="img" wx:if="{{item.shift==0}}"></image>
+    </view>
+  </view>
+  <view class="ap">
+    <view class="text1">打开喜马拉雅App</view>
+    <view class="text2">可查看完整热搜榜</view>
+  </view>
+</view>

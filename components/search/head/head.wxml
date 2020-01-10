@@ -1,0 +1,35 @@
+<!--components/search/head/head.wxml-->
+<view class="nav">
+  <view class="nav-l">
+    <image class="img" src="../../../images/2.png"></image>
+    <input bindinput="handleClick"></input>
+  </view>
+  <view class="nav-r" catchtap="backClick">取消</view>
+</view>
+<view class="box" wx:if="{{data.length > 0}}">
+  <view class="list" wx:for="{{list}}" wx:key="id">
+    <view class="list-l">
+      <image src="{{item.imgPath}}" class="im"></image>
+      <view class="img-r">
+        <view class="text1">{{item.keyword}}</view>
+        <view class="text2">
+          <view class="ta">{{item.category}}</view>
+          <view class="l1">
+            <image src="../../../images/3.png" class="ico1"></image>
+            {{item.play}}
+          </view>
+          <view class="l1">
+            <image src="../../../images/4.png" class="ico1"></image>
+            {{item.tracks}}集
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="list-r">
+      <image class="bf" src="../../../images/7.png"></image>
+    </view>
+  </view>
+  <view class="item" wx:for="{{data}}" wx:key="id">
+    {{item.keyword}}
+  </view>
+</view>

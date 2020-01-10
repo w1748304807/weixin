@@ -5,7 +5,13 @@ Page({
   data: {
     list1: [],
     list2: [],
-    page: ''
+    page: '',
+    key: 'tuijian'
+  },
+  searchClick: function() {
+    wx.navigateTo({
+      url: '/pages/search/search'
+    })
   },
   onLoad(options) {
     var page
