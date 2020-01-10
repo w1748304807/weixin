@@ -5,14 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    page: '',
+    key: ''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var page
+    var key
+    if (!options.page) {
+      page = '0'
+    } else {
+      page = options.page
+    }
+    this.setData({
+      page
+    })
+    if (!options.key) {
+      key = 'tuijian'
+    } else {
+      key = options.key
+    }
+    this.setData({
+      key
+    })
   },
 
   /**

@@ -15,14 +15,14 @@
     </view>
   </view>
   <view class="tabbar">
-    <tabbar></tabbar>
+    <tabbar page="{{page}}"></tabbar>
   </view>
   <view class="nav">
-    <recommend></recommend>
+    <recommend key="{{key}}"></recommend>
   </view>
   <view class="app">
     <image class="im" src="//imagev2.xmcdn.com/group61/M0A/CD/B2/wKgMZl0W1legiUgkAACPrBBFcJ4381.png"></image>
   </view>
-  <list></list>
+  <list key="{{key}}"></list>
   <foot></foot>
 </view>

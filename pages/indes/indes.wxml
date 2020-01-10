@@ -15,15 +15,15 @@
     </view>
   </view>
   <view class="tabbar">
-    <tabbar></tabbar>
+    <tabbar page="{{page}}"></tabbar>
   </view>
   <view class="nav">
-    <lunbo></lunbo>
-    <reco></reco>
+    <lunbo key="{{key}}"></lunbo>
+    <reco key="{{key}}"></reco>
     <view class="app">
       <image class="im" src="//imagev2.xmcdn.com/group61/M0A/CD/B2/wKgMZl0W1legiUgkAACPrBBFcJ4381.png"></image>
     </view>
-    <lists></lists>
+    <lists key="{{key}}"></lists>
   </view>
   <foot></foot>
 </view>

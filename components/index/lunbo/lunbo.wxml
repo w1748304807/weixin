@@ -1,8 +1,8 @@
 <!--components/index/swiper/swiper.wxml-->
-<view class="box">
+<view class="box" wx:if="{{img.length > 0}}">
   <swiper
     autoplay
-    interval="2000"
+    interval="3000"
     circular
   >
     <swiper-item wx:for="{{img}}" wx:key="responseId">
