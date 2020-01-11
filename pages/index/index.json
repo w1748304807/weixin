@@ -3,6 +3,7 @@
     "tabbar": "../../components/index/tabbar",
     "recommend": "../../components/index/recommend/recommend",
     "list": "../../components/index/list/list",
-    "foot": "../../components/index/foot/foot"
+    "foot": "../../components/index/foot/foot",
+    "loading": "../../miniprogram_npm/weui-miniprogram/loading/loading"
   }
 }

@@ -25,4 +25,10 @@
   </view>
   <list key="{{key}}"></list>
   <foot></foot>
+  <loading
+    extClass="loading"
+    type="circle"
+    tips
+    show="{{flag}}"
+  ></loading>
 </view>

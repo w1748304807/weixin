@@ -6,7 +6,8 @@ Page({
     list1: [],
     list2: [],
     page: '',
-    key: 'tuijian'
+    key: 'tuijian',
+    flag: false
   },
   searchClick: function() {
     wx.navigateTo({

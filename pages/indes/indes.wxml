@@ -23,7 +23,7 @@
     <view class="app">
       <image class="im" src="//imagev2.xmcdn.com/group61/M0A/CD/B2/wKgMZl0W1legiUgkAACPrBBFcJ4381.png"></image>
     </view>
-    <lists key="{{key}}"></lists>
+    <lists key="{{key}}" flag="{{flag}}"></lists>
   </view>
   <foot></foot>
 </view>

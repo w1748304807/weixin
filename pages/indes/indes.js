@@ -6,7 +6,8 @@ Page({
    */
   data: {
     page: '',
-    key: ''
+    key: '',
+    flag: false
   },
 
   searchClick: function () {
@@ -74,7 +75,9 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-
+    this.setData({
+      flag:!this.data.flag
+    })
   },
 
   /**
