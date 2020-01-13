@@ -1,7 +1,9 @@
 {
   "pages": [
+    "pages/top/top",
     "pages/index/index",
-    "pages/indes/indes"
+    "pages/indes/indes",
+    "components/top/tabbarY"
   ],
   "window": {
     "backgroundTextStyle": "light",

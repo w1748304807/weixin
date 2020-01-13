@@ -1,0 +1,66 @@
+<!--pages/top/top.wxml-->
+<view class="top">
+  <view class="head">
+    <view class="head-w">
+      <image src="../../images/1.png" class="logo"></image>
+      <view class="search">
+        <view class="ip">
+          <image src="../../images/2.png" class="sear"></image>
+          <view class="text">搜索</view>
+        </view>
+      </view>
+      <view class="ap">
+        打开APP
+      </view>
+    </view>
+  </view>
+  <view class="tab">
+    <view class="scroll-view"   >
+      <view 
+        class="{{_active == index ? 'item_active' : 'item'}}" 
+        wx:for="{{result}}"
+        wx:key="index"
+        data-id="{{index}}"
+        bindtap="handleClick"
+      >{{item.clusterName}}</view>
+    </view>
+  </view>
+  <view class="menu_content">
+    <view class="menu_ul">
+      <view 
+        class="{{menu_ul_active == index ? 'menu_ul_list_active' : 'menu_ul_list'}}" 
+        bindtap="handleClick2"
+        wx:for="{{menu_ul}}"
+        wx:key="index"
+        data-index="{{index}}"
+        >{{item.title}}</view>
+    </view>
+    <view class="menu_list">
+      <view 
+        class="menu_list_item" 
+        wx:for="{{rankModuleInfoList}}"
+        wx:key="index"
+        >
+          <text class="ranking">{{index+1}}</text>
+          <view class="menu_list_item_wrap">
+            <view class="cover_img">
+            <image  class="cover_img_image" src="https://imagev2.xmcdn.com/{{item.albumInfo.cover}}"></image>
+            </view>
+            <view class="menu_list_item_wrap_content">
+              <view class="menu_list_item_wrap_h1">{{item.albumInfo.title}}</view>
+              <view class="menu_list_item_wrap_h2">{{item.albumInfo.customTitle}}</view>
+              <view class="menu_list_item_wrap_h3">
+                <image src="../../images/3.png"></image><text>{{item.statCountInfo.playCount}}</text>
+                <image src="../../images/4.png"></image><text>{{item.statCountInfo.trackCount}}</text>
+              </view>
+            </view>
+          </view>
+        </view>
+    </view>
+  </view>
+
+
+
+
+
+</view>

@@ -1,0 +1,6 @@
+<!--components/index/tabbar.wxml-->
+<view class="box">
+  <view class="list">
+    <view class='item {{index == page ? "active" : ""}}' data-index="{{index}}" wx:key="item" wx:for="{{list}}" bindtap="handleClick">{{item}}</view>
+  </view>
+</view>
